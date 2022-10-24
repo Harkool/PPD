@@ -1,23 +1,13 @@
-from copyreg import pickle
-from doctest import OutputChecker
-from importlib.abc import PathEntryFinder
-from unittest import result
-from PIL import Image
 import streamlit as st
 import numpy as np
 from numpy import array
 from numpy import argmax
 from numpy import genfromtxt
-import scipy
 import pandas as pd
-import math
-import time
 import plotly.express as px
-import seaborn as sns
 import shap
 import xgboost as xgb  ###xgboost
 from xgboost.sklearn import XGBClassifier
-import plotly.figure_factory as ff
 import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Probability prediction of postpartum depression risk", layout="wide")
